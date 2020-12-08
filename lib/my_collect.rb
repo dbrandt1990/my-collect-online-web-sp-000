@@ -1,4 +1,4 @@
-required 'pry'
+require 'pry'
 
 def my_collect(array)
   i = 0
