@@ -5,6 +5,7 @@ def my_collect(array)
   results =[]
   while array.size > i 
   yield(array[i])
+  binding.pry
   i += 1
  end
 end
